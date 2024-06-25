@@ -30,5 +30,7 @@ export async function GET() {
     });
   }
 
-  return NextResponse.redirect("http://localhost:3000");
+  return NextResponse.redirect(
+    "https://airbnbtour-next14-4j82tsvoy-adithyavaruncreators-projects.vercel.app"
+  );
 }
